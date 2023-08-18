@@ -1,46 +1,24 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css'
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Content from "./components/Content/Content";
 import Footer from "./components/Footer/Footer";
-import Home from "./pages/Home/Home";
-import Gallery from "./pages/Gallery/Gallery";
-import Facility from "./pages/Facility/Facility";
-
-const Layout = () => {
-  return (
-    <div className="app">
-      <Navbar />
-      <Outlet />
-      <Footer />
-    </div>
-  )
-}
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-    children: [
-      {
-        path: '/',
-        element: <Home />
-      },
-      {
-        path: '/gallery',
-        element: <Gallery />
-      },
-      {
-        path: '/facility',
-        element: <Facility />
-      }
-    ]
-  }
-])
+import Experience from "./components/Experience/Experience";
+import Skillset from "./components/Skillset/Skillset";
 
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <div className="app">
+        <Navbar />
+        <Hero />
+        <Experience />
+        <Skillset />
+        <Content />
+        <Footer />
+      </div>
     </>
   );
 }
