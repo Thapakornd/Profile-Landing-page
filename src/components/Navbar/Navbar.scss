@@ -1,0 +1,50 @@
+.navbar {
+    position: absolute;
+    z-index: 10000;
+    width: 100%;
+    color: #fff;
+    padding: 0 4rem;
+
+    .logo {
+        letter-spacing: 2px;
+
+        h1 {
+            font-size: 2rem;
+        }
+        span {
+            color: #ffffffaf;
+        }
+    }
+
+    ul {
+        display: flex;
+        grid-gap: 3rem;
+        list-style: none;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 0;
+
+        li {
+            a {
+                color: #ffffffcc;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #51c8ff;
+            }
+        }
+        .contact {
+            a {
+                background-color: #5221e6;
+                padding: 2rem;
+                color: #fff;
+                transition: all 0.3s ease-in-out;
+            }
+            a:hover{
+                color: #fff;
+                background-color: #2b1177;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
