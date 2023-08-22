@@ -1,0 +1,95 @@
+.work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    margin: 1rem 15rem;
+    color: #fff;
+
+    .normal-wrapper {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3rem;
+        min-width: 100%;
+
+        .btn-github{
+            margin: 6rem 0;
+            display: flex;
+            justify-content: center;
+            a{
+                font-size: 1.2rem;
+                font-weight: 600;
+                letter-spacing: 2px;
+                color: #fff;
+                text-decoration: none;
+                border: 1px solid #5221e6;
+                padding: 1rem 2rem;
+                transition: all 0.2s ease-in-out;
+            }
+            a:hover{
+                transform: translateY(-10px);
+                background-color: #5221e6;
+                box-shadow: 0px 0px 10px 0px #5221e6;
+            }
+        }
+
+        .logo {
+            height: 20rem;
+
+            span {
+                letter-spacing: 1px;
+                font-size: 1.4rem;
+                color: #6891a0;
+            }
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        .project-wrapper {
+            a {
+                text-decoration: none;
+                color: #fff;
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                background-color: #181823;
+                transition: all 0.2s ease-in;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 0.4rem;
+                    padding: 2rem 1.5rem;
+
+                    h3 {
+                        transition: all 0.2s ease-in;
+                        font-size: clamp(1rem, 25vw, 1.5rem);
+                    }
+                    p {
+                        color: #6891a0;
+                        font-size: clamp(0.8rem, 30vw, 1rem);
+                    }
+                }
+
+                .project-img {
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            a:hover {
+                transition: all 0.3s ease-out;
+                scale: 1.02;
+
+                h3 {
+                    transition: all 0.3s ease-out;
+                    transform: translateX(1rem);
+                    color: skyblue;
+                }
+            }
+        }
+    }
+}
