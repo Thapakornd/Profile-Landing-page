@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 4rem;
-    margin: 1rem 15rem;
+    padding: 5rem 0 0;
+    margin: auto 15rem;
     color: #fff;
 
     .normal-wrapper {
@@ -33,7 +34,7 @@
         }
 
         .logo {
-            height: 20rem;
+            height: 100%;
 
             span {
                 letter-spacing: 1px;

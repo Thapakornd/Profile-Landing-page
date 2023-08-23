@@ -4,7 +4,7 @@ import ComputerOutlinedIcon from "@mui/icons-material/ComputerOutlined";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="head">
         <h1>ABOUT ME</h1>
         <p>
@@ -23,7 +23,7 @@ const About = () => {
           quaerat.
         </p>
         <div className="btn-contact">
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </div>
       <div className="r-2">

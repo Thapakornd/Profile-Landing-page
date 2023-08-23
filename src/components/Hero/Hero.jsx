@@ -22,7 +22,7 @@ const Hero = () => {
             perspiciatis cupiditate impedit nisi dignissimos.
           </p>
           <div className="btn-project">
-            <a href="#" >
+            <a href="#projects" >
               PROJECTS
             </a>
           </div>

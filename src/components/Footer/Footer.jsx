@@ -7,7 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="logo">
         <h1>
           Thapakorn.<span>GUS</span>
@@ -20,22 +20,22 @@ const Footer = () => {
       <div className="link">
         <ul>
           <li>
-            <a href="#">
+            <a href="mailto:thapakornmeethan@gmail.com">
               <MailOutlineOutlinedIcon fontSize="large" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/Thapakornd" target="noreferrer">
               <GitHubIcon fontSize="large" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.instagram.com/glaz__130/" target="noreferrer">
               <InstagramIcon fontSize="large" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/thapakorn-meethan-290524227/" target="noreferrer">
               <LinkedInIcon fontSize="large" />
             </a>
           </li>
