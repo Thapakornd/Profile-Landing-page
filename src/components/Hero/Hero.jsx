@@ -16,10 +16,8 @@ const Hero = () => {
             <span>Computer Engineering </span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            excepturi rem. Ratione porro dignissimos suscipit quibusdam a,
-            deserunt quam veniam. Laudantium, id commodi? Reiciendis quod
-            perspiciatis cupiditate impedit nisi dignissimos.
+            I'm a person who passionate software developer.
+            If you have great project that needs skills. I'm can be your guy.
           </p>
           <div className="btn-project">
             <a href="#projects" >

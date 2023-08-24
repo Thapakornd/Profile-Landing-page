@@ -7,6 +7,7 @@
         display: grid;
         z-index: 10;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
         padding: 8rem 0;
         color: #fff;
 
@@ -26,12 +27,16 @@
             padding: 5rem 2rem 0 0;
 
             h1 {
-                width: 650px;
+                width: 40vw;
                 font-size: 4rem;
 
                 span {
                     color: #6891a0;
                 }
+            }
+
+            p {
+                width: 40vw;
             }
 
             .btn-project {
@@ -63,5 +68,55 @@
         width: 70vw;
         height: 100vh;
         z-index: 9;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        font-size: 95%;
+
+        .content-main {
+
+            .content-1 {
+                h1 {
+                    font-size: 3.8rem;
+                }
+                .btn-project{
+                    a{
+                        font-size: 1.05rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media (max-width: 930px){
+    .hero{
+        font-size: 90%;
+        
+        .content-main{
+            .profile{
+                img{
+                    height: 65vh;
+                }
+            }
+            .content-1{
+                h1{
+                    font-size: 3rem;
+                }
+                .btn-project{
+                    a{
+                        font-size: 0.85rem;
+                    }
+                }
+            }
+        }
+
+        .block{
+            width: 65vw;
+        }
     }
 }

@@ -94,3 +94,52 @@
         }
     }
 }
+
+@media (max-width: 1200px){
+    .work{
+        margin: auto 8rem;
+    }
+}
+
+@media (max-width: 930px){
+    .work{
+        .normal-wrapper{
+            .logo{
+                span{
+                    font-size: 1.1rem;
+                }
+                h1{
+                    font-size: 3rem;
+                }
+            }
+
+            .btn-github{
+                a{
+                    font-size: 1rem;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                    text-decoration: none;
+                    border: 1px solid #5221e6;
+                    padding: 1rem 2rem;
+                    transition: all 0.2s ease-in-out;
+                }
+            }
+            
+            .project-wrapper{
+                a {
+                    .content {
+    
+                        h3 {
+                            font-size: 1.1rem;
+                        }
+                        p {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

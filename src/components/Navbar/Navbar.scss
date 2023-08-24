@@ -10,6 +10,7 @@
 
         h1 {
             font-size: 3rem;
+            font-weight: 600;
         }
         span {
             color: #ffffffaf;
@@ -44,6 +45,31 @@
                 color: #fff;
                 background-color: #2b1177;
                 transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar{
+        font-size: 95%;
+
+        .logo{
+            h1{
+                font-size: 2.8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 930px){
+    .navbar{
+        font-size: 90%;
+        padding: 0 2rem;
+    
+        .logo{
+            h1{
+                font-size: 2.4rem;
             }
         }
     }

@@ -22,7 +22,7 @@
 
         p {
             text-align: center;
-            width: 40%;
+            width: 50vw;
         }
     }
 
@@ -32,8 +32,17 @@
         grid-gap: 0.8rem;
 
         h3 {
-            font-weight: 500;
+            font-weight: 600;
             font-size: 2rem;
+        }
+
+        p{
+            span{
+                color: #8258ff;
+                font-weight: 600;
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+            }
         }
 
         .btn-contact {
@@ -61,7 +70,7 @@
         grid-gap: 0.8rem;
 
         h3 {
-            font-weight: 500;
+            font-weight: 600;
             font-size: 2rem;
         }
 
@@ -80,4 +89,74 @@
             }
         }
     }
+}
+
+@media (max-width: 1200px) {
+    .about{
+        font-size: 95%;
+        margin: 10rem 8rem 16rem;
+
+        .head{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    
+        .r-1{
+            h3{
+                font-size: 1.9rem;
+            }
+
+            .btn-contact{
+                a{
+                    font-size: 1.05rem;
+                }
+            }
+        }
+
+        .r-2{
+
+            h3{
+                font-size: 1.9rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .about{
+        font-size: 85%;
+        margin: 10rem 8rem 16rem;
+
+        .head{
+            h1{
+                font-size: 2.8rem;
+            }
+        }
+    
+        .r-1{
+            h3{
+                font-size: 1.7rem;
+            }
+
+            p{
+                span{
+                    font-size: 1rem;
+                }
+            }
+
+            .btn-contact{
+                a{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+
+        .r-2{
+
+            h3{
+                font-size: 1.7rem;
+            }
+        }
+    }    
 }

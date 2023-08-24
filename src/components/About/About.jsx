@@ -14,14 +14,16 @@ const About = () => {
       <div className="r-1">
         <h3>Get to know me!</h3>
         <p>
-          I'm a student of computer engineering at Bangkok University,
+          I'm a student of <span>Computer Engineering</span> at Bangkok University.
+          I'm a person who passionate with computer and how to improve <span>Software Performance.</span>
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At esse
-          commodi, aut temporibus quidem a rerum? Quos soluta at suscipit eum
-          sunt quo, officiis porro adipisci possimus voluptatem excepturi
-          quaerat.
+          I speak Thai and also a little bit in English. I love to research new technology or tech news.
+          I've always wanted to improve my <span>Algorithm</span> to solve problems and English for more communication.
+          <br /><br /> I'm open to <span>Job opportunities</span> where I can contribute, learn and grow.
         </p>
+
+
         <div className="btn-contact">
           <a href="#contact">CONTACT</a>
         </div>
