@@ -160,3 +160,21 @@
         }
     }    
 }
+
+@media (max-width: 768px) {
+    .about{
+        grid-template-columns: 1fr;
+        
+        .head{
+            grid-column: 1;
+        }
+
+        .r-1{
+            grid-column: 1;
+        }
+
+        .r-2{
+            grid-column: 1;
+        }
+    }
+}

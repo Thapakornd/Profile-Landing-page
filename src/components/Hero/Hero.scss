@@ -1,12 +1,11 @@
 .hero {
     background-color: transparent;
-    height: 90vh;
 
     .content-main {
         position: relative;
         display: grid;
         z-index: 10;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem;
         padding: 8rem 0;
         color: #fff;
@@ -76,47 +75,80 @@
         font-size: 95%;
 
         .content-main {
-
             .content-1 {
                 h1 {
                     font-size: 3.8rem;
                 }
-                .btn-project{
-                    a{
+                .btn-project {
+                    a {
                         font-size: 1.05rem;
                     }
                 }
             }
-            
         }
     }
 }
 
-
-@media (max-width: 930px){
-    .hero{
+@media (max-width: 930px) {
+    .hero {
         font-size: 90%;
-        
-        .content-main{
-            .profile{
-                img{
+
+        .content-main {
+            .profile {
+                img {
                     height: 65vh;
                 }
             }
-            .content-1{
-                h1{
+            .content-1 {
+                h1 {
                     font-size: 3rem;
                 }
-                .btn-project{
-                    a{
+                .btn-project {
+                    a {
                         font-size: 0.85rem;
                     }
                 }
             }
         }
 
-        .block{
+        .block {
             width: 65vw;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        .content-main {
+            grid-template-columns: 1fr;
+            padding: 7rem 0;
+            grid-gap: 0;
+
+            .profile {
+                img {
+                    width: 100vw;
+                    height: 45vh;
+                }
+            }
+
+            .content-1 {
+                background-color: #181822;
+                align-items: center;
+                padding: 2rem 2rem;
+
+                p{
+                    text-align: center;
+                    width: 90%;
+                }
+
+                h1 {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+        .block{
+            display: none;
         }
     }
 }
