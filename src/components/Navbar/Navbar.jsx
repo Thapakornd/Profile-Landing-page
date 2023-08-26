@@ -3,15 +3,22 @@ import ViewStreamIcon from "@mui/icons-material/ViewStream";
 import "./Navbar.scss";
 
 const Navbar = () => {
+  const [active, setActive] = useState(false);
+
   return (
     <div className="navbar">
       <div className="logo">
         <h1>
           Thapakorn.<span>GUS</span>
         </h1>
-        <div className="check-btn">
+        <div className="check-btn" onClick={() => setActive(!active)}>
           <ViewStreamIcon sx={{ fontSize: "2.5rem"}}/>
         </div>
+      </div>
+      <div className="drop-down">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
       </div>
       <ul>
         <li>
