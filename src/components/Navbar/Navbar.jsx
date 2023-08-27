@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ViewStreamIcon from "@mui/icons-material/ViewStream";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -12,10 +13,17 @@ const Navbar = () => {
           Thapakorn.<span>GUS</span>
         </h1>
         <div className="check-btn" onClick={() => setActive(!active)}>
-          <ViewStreamIcon sx={{ fontSize: "2.5rem"}}/>
+          {active
+            ? (
+                <CloseIcon sx={{ fontSize: "2.5rem"}} />
+              )
+              : (
+                <MenuIcon sx={{ fontSize: "2.5rem"}} />
+                ) 
+          }
         </div>
       </div>
-      <div className="drop-down">
+      <div className={`drop-down ${active ? "active" : "deactive"}`}>
         <a href="#about">ABOUT</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>

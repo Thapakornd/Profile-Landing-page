@@ -126,7 +126,6 @@
 @media (max-width: 930px) {
     .about{
         font-size: 85%;
-        margin: 10rem 8rem 16rem;
 
         .head{
             h1{
@@ -176,5 +175,11 @@
         .r-2{
             grid-column: 1;
         }
+    }
+}
+
+@media (max-width: 620px) {
+    .about{
+        margin: 10rem 5rem 16rem;
     }
 }

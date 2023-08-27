@@ -60,6 +60,15 @@
     }
 }
 
+.active{
+    transform: translateX(0);
+    transition: all ease-out 0.3s;
+}
+.deactive{
+    transform: translateY(-500px);    
+    transition: all ease-out 0.3s;
+}
+
 @media (max-width: 1200px) {
     .navbar{
         font-size: 95%;
@@ -128,6 +137,8 @@
             display: flex;
             flex-direction: column;
             background-color: #5a5a5a;
+            z-index: -100;
+            transition: all ease-in 0.3s;
 
             a{
                 background-color: #000;
