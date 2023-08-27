@@ -13,7 +13,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/non-preemtive-priority.jpg" alt="" />
+              <img src="/project/non-preemtive-priority.jpg" alt="" />
             </div>
             <div className="content">
               <h3>Non Preemtive Priority Desktop Application</h3>
@@ -28,7 +28,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/unity-2D-game.jpg" alt="" />
+              <img src="/project/unity-2D-game.jpg" alt="" />
             </div>
             <div className="content">
               <h3>Game 2D with unity</h3>
@@ -43,7 +43,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/python-selenium.jpg" alt="" />
+              <img src="/project/python-selenium.jpg" alt="" />
             </div>
             <div className="content">
               <h3>Python Selenium for Automate Website</h3>
@@ -61,7 +61,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/least-freq-used.jpg" alt="" />
+              <img src="/project/least-freq-used.jpg" alt="" />
             </div>
             <div className="content">
               <h3>Least Frequency Used Desktop Application</h3>
@@ -76,7 +76,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/cafe-management.jpg" alt="" />
+              <img src="/project/cafe-management.jpg" alt="" />
             </div>
             <div className="content">
               <h3>Cafe Management With Java (Desktop Application)</h3>
@@ -91,7 +91,7 @@ const Work = () => {
         <div className="project-wrapper">
           <a href="#">
             <div className="project-img">
-              <img src="/public/project/mern-auth.jpg" alt="" />
+              <img src="/project/mern-auth.jpg" alt="" />
             </div>
             <div className="content">
               <h3>MERN Stack Project Auth with jsonwebtoken</h3>
