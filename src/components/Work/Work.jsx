@@ -11,7 +11,7 @@ const Work = () => {
           <h1>Personal project that I've done containing its own case study</h1>
         </div>
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/Non_preemtive_priority">
             <div className="project-img">
               <img src="/project/non-preemtive-priority.jpg" alt="" />
             </div>
@@ -26,7 +26,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/GameWithUnity2D">
             <div className="project-img">
               <img src="/project/unity-2D-game.jpg" alt="" />
             </div>
@@ -41,7 +41,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/Python-X-Selenium-to-LINE-STORE">
             <div className="project-img">
               <img src="/project/python-selenium.jpg" alt="" />
             </div>
@@ -59,7 +59,7 @@ const Work = () => {
       </div>
       <div className="normal-wrapper">
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/LFU_sim_v0.2">
             <div className="project-img">
               <img src="/project/least-freq-used.jpg" alt="" />
             </div>
@@ -74,7 +74,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/Cafe-Mangement">
             <div className="project-img">
               <img src="/project/cafe-management.jpg" alt="" />
             </div>
@@ -89,7 +89,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="#">
+          <a href="https://github.com/Thapakornd/MERN-CRUD-Auth">
             <div className="project-img">
               <img src="/project/mern-auth.jpg" alt="" />
             </div>
