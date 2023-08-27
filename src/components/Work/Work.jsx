@@ -1,6 +1,5 @@
 import React from "react";
 import "./Work.scss";
-import ArrowOutwardOutlinedIcon from '@mui/icons-material/ArrowOutwardOutlined';
 
 const Work = () => {
   return (
@@ -11,7 +10,7 @@ const Work = () => {
           <h1>Personal project that I've done containing its own case study</h1>
         </div>
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/Non_preemtive_priority">
+          <a href="https://github.com/Thapakornd/Non_preemtive_priority" target="noreferrer">
             <div className="project-img">
               <img src="/project/non-preemtive-priority.jpg" alt="" />
             </div>
@@ -26,7 +25,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/GameWithUnity2D">
+          <a href="https://github.com/Thapakornd/GameWithUnity2D" target="noreferrer">
             <div className="project-img">
               <img src="/project/unity-2D-game.jpg" alt="" />
             </div>
@@ -41,7 +40,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/Python-X-Selenium-to-LINE-STORE">
+          <a href="https://github.com/Thapakornd/Python-X-Selenium-to-LINE-STORE" target="noreferrer">
             <div className="project-img">
               <img src="/project/python-selenium.jpg" alt="" />
             </div>
@@ -59,7 +58,7 @@ const Work = () => {
       </div>
       <div className="normal-wrapper">
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/LFU_sim_v0.2">
+          <a href="https://github.com/Thapakornd/LFU_sim_v0.2" target="noreferrer">
             <div className="project-img">
               <img src="/project/least-freq-used.jpg" alt="" />
             </div>
@@ -74,7 +73,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/Cafe-Mangement">
+          <a href="https://github.com/Thapakornd/Cafe-Mangement" target="noreferrer">
             <div className="project-img">
               <img src="/project/cafe-management.jpg" alt="" />
             </div>
@@ -89,7 +88,7 @@ const Work = () => {
           </a>
         </div>
         <div className="project-wrapper">
-          <a href="https://github.com/Thapakornd/MERN-CRUD-Auth">
+          <a href="https://github.com/Thapakornd/MERN-CRUD-Auth" target="noreferrer">
             <div className="project-img">
               <img src="/project/mern-auth.jpg" alt="" />
             </div>
