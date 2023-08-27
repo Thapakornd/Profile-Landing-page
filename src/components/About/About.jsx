@@ -35,7 +35,6 @@ const About = () => {
           <div className="box">CSS</div>
           <div className="box">JavaScript</div>
           <div className="box">React</div>
-          <div className="box">SASS</div>
           <div className="box">GIT</div>
           <div className="box">Github</div>
           <div className="box">Responsive Design</div>
